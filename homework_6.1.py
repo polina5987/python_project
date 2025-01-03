@@ -4,7 +4,6 @@
 # "a-A" -> abcdefghijklmnopqrstuvwxyzA
 
 import string
-from typing import final
 
 user_letters = input("Enter 2 letters: ")
 first_letter, second_letter = user_letters.split("-")
